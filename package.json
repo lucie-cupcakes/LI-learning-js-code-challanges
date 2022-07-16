@@ -1,0 +1,25 @@
+{
+  "name": "li-learning-js-code-challanges",
+  "version": "1.0.0",
+  "description": "LinkedIn Learning JavaScript Code Challanges Exercises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e html,js,css index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucie-cupcakes/LI-learning-js-code-challanges.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucie-cupcakes/LI-learning-js-code-challanges/issues"
+  },
+  "homepage": "https://github.com/lucie-cupcakes/LI-learning-js-code-challanges#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}

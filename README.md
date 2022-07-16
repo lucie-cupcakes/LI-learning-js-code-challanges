@@ -1,2 +1,10 @@
 # LI-learning-js-code-challanges
-LinkedIn Learning JavaScript Code Challanges Exercises
+Exercises and solution to the course.
+
+# Course Information
+Course link: [https://www.linkedin.com/learning/javascript-code-challenges](LinkedIn Learning - Javascript Code Challenges)
+
+# Run the server
+
+type `npm start` and navigate to http://localhost:3000
+
