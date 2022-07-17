@@ -11,12 +11,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     const gen = trainGenerator();
+    const nextBtn = document.querySelector('#next-station-btn');
 
-    document.querySelector('#next-station-btn').addEventListener('click', () => {
+    nextBtn.addEventListener('click', () => {
         const { value, done } = gen.next();
 
         if (done) {
-            console.log(`There are no more stations.`);
+            console.log(`We made it!`);
+            nextBtn.disabled = true;
         } else {
             console.log(`Current station: ${value}`);
         }
