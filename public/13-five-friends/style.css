@@ -1,0 +1,8 @@
+.error {
+    color: red;
+}
+
+.friend-card > .friend-name-p {
+    color: blue;
+    text-decoration: underline;
+}
