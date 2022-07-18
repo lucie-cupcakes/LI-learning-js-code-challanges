@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    font-family: 'Open Sans', 'Helvetica', sans-serif;
+}
+
+a, a:visited {
+    color: #24386F;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #652D87;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #E8418A;
+    text-decoration: underline;
+}
